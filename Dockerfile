@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian:8
 MAINTAINER Tim Court <tctimmeh@gmail.com>
 
 RUN set -xe \
