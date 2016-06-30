@@ -14,7 +14,7 @@ RUN set -xe \
         libxt6
 
 ARG version
-ENV VERSION=${version:-47.0.1}
+ENV VERSION=${version:-38.8.0esr}
 
 RUN set -xe \
     && curl -SL https://ftp.mozilla.org/pub/firefox/releases/${VERSION}/linux-x86_64/en-US/firefox-${VERSION}.tar.bz2 -o firefox.tar.bz2
